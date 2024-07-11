@@ -22,6 +22,7 @@ function Todo({ todo, removeTodo, onUpdateTodo }) {
   const todoRemove = () => {
     removeTodo(id);
   };
+  
   return (
     <div
       style={{
