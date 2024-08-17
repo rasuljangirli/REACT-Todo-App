@@ -5,11 +5,10 @@ import TodoList from "./components/TodoList";
 
 function App() {
   const [todos, setTodos] = useState([]);
-
+  
   const createTodo = (newTodo) => {
     setTodos([...todos, newTodo]);
   };
-  // console.log(todos);
 
   const removeTodo = (todoId) => {
     setTodos([...todos.filter((todo) => todo.id !== todoId)]);
