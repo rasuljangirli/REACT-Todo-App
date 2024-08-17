@@ -24,7 +24,7 @@ function App() {
 
     setTodos([...newArr]);
   };
-
+  
   return (
     <div className="App">
       <div className="main">
